@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 20;
+    float pi = 3.14;
+    char c = 'D';
+    bool is_true = true;
+
+    cout << "sum: "<< a + b << endl;
+    cout << "Pi value: "<< pi << endl;
+    cout << "Character: "<< c << endl;
+    cout << "Boolean: "<<is_true<<endl;
+
+    return 0;
+}
